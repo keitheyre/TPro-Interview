@@ -14,24 +14,24 @@ T-Pro gave the following implementation hints:
 
 A:
 - First I needed to create the empty project in Andorid Studio
-- Then, create a MainActivity, an Adapter, an Item model class to stop the data, a service to fetch the data and then handle the audip playback. I will try use as little external libraries as possible to keep the app lean and neat
+- Then, create a MainActivity, an Adapter, an Item model class to stop the data, a service to fetch the data and then handle the audio playback. I will try use as little external libraries as possible to keep the app lean and neat
 - Then I will need to code the logic to handle playing and pausing the audio files from a url (Idealy I will use the same button for both Pause and Play)
 
 ## Architecture
 
 A:
-- MVVM architecture will make fetching the data and showing progress bars a bit easier. Also, it will keep as much logic away from the MainActivity as possible to keep is clear
+- MVVM architecture will make fetching the data and showing progress bars a bit easier. Also, it will keep as much logic away from the MainActivity as possible to keep it clean
 
 ## Libraries Used
 
 A:
-- I chose to use the OkHTTP library as I have not used that before and fancied myself a challenge. Was also cool learning what other libraries are out there and how they work
+- I chose to use the OkHTTP library as I have not used that before and fancied myself a challenge. It was also interesting to learn what other libraries are out there and how they work
 
 ## Backlog
 
 - I did try to use Hilt to DI but I was running into a lot of issues and did not want to take up too much time trying to figure this out. I will look into Hilt in my own time and learn it
 
-- I did try to use FastLane to build a Release of the SimpleApp but the terminal kept getting stuck on this command. I tried multiple times and decided to leave it and like above, look into this in my own time 
+- I did try to use FastLane to build a Release of the SimpleApp but the terminal kept getting stuck on this command. I tried multiple times and decided to leave it and like above, I will look into this in my own time 
 ```
 keitheyre ~/Development/TPRO-INTERVIEW/Code Questions/SimpleApp [master] $ gem install fastlane
 Ignoring ffi-1.15.0 because its extensions are not built. Try: gem pristine ffi --version 1.15.0
@@ -69,7 +69,7 @@ Keith Eyre
   ```
   MainActivity : AppCompatActivity()
   ```
-  I waasnstryggled to find why changing this from
+  I was struggling to find why changing this from
   ```
   MainActivity : Activity()
   ```

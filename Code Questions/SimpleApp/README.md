@@ -50,5 +50,35 @@ Ignoring ffi-1.15.0 because its extensions are not built. Try: gem pristine ffi 
 ## Improvements
 
 A:
+Some improvements I would like to make given some extra time would be:
+- Once the audio file is played, download that file to the device for faster playback the second time
+- If AWS has active listeners for the endpoint, I would add a listen to refresh the data in real-time if the endpoint data was modified to keep the app in sync with the server
+- Update the UI and make it a bit nicer
+
 
 ## Author
+
+Keith Eyre
+
+## Time to complete
+
+* Theoretical Questions: 15 mins approx.
+* Code Questions: 15 mins approx.
+* Broken App: 2+ hours
+  * I encountered a lot of errors that I had to research and understand before I could apply a fix. Mainly surrounding the
+  ```
+  MainActivity : AppCompatActivity()
+  ```
+  I waasnstryggled to find why changing this from
+  ```
+  MainActivity : Activity()
+  ```
+  was causing the onClicks not to register and also the ViewModel initialisation was being ignored.
+* Simple App: 4+ hours
+  * I began strong with this as I knew what I had to do. I had to leave the house in the middle of this task to bring my wife to an appointment.
+  * Once I returned I added another 1 hour to handle the uadio playback and then refactored some of the files to be clean and also added comments all over the place to make it clear what I was attempting to do
+  
+
+
+
+

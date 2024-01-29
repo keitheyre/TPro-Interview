@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BrokenApp</string>
+
+<!--    Main Activity-->
+    <string name="title_text">Enter 2 numbers to add together</string>
+    <string name="number_one_hint">Enter First Number</string>
+    <string name="number_two_hint">Enter Second Number</string>
+    <string name="add_numbers_btn_label">Add Numbers</string>
+
+</resources>

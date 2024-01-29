@@ -35,12 +35,12 @@ The whole test is divided in three levels and the collection of answers to these
 
 | Task | Done | Time Spent |
 | ----------- | :-: | :-: |
-| Solve the bugs and bad pratices of the project inside the [BrokenApp](https://github.com/T-Pro/android-challenge-elena/tree/master/Code%20Questions/BrokenApp) folder. |  Yes | 1 hour |
-| Create a [simple app](https://github.com/T-Pro/android-challenge-elena/tree/master/Code%20Questions/SimpleApp) app that requests a specific endpoint. | Yes  | 4-5 hours |
+| Solve the bugs and bad pratices of the project inside the [BrokenApp](https://github.com/keitheyre/TPro-Interview/tree/master/Code%20Questions/BrokenApp) folder. |  Yes | 1.5 hours |
+| Create a [simple app](https://github.com/keitheyre/TPro-Interview/tree/master/Code%20Questions/SimpleApp) app that requests a specific endpoint. | Yes  | 4-5 hours |
 
 ### Bonus
 
 | Task | Done | Time Spent |
 | ----------- | :-: | :-: |
-| Create a fastlane script to build your [simple app](https://github.com/T-Pro/android-challenge-elena/tree/master/Code%20Questions/SimpleApp) project. | No  | 30 mins |
+| Create a fastlane script to build your [simple app](https://github.com/keitheyre/TPro-Interview/tree/master/Code%20Questions/SimpleApp) project. | No  | 30 mins |
 | Use Coroutines for async process. |  Yes | Time added to above dev time |

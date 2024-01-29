@@ -4,10 +4,10 @@ This repository is part of the interviewing process for the Android Developer po
 
 ## Repository Organization
 
-- [Theoretical Questions](https://github.com/T-Pro/android-challenge-elena/tree/master/Theoretical%20Questions) - Folder that contains the answers to all the theoretical-only questions inside a README file.
-- [Code Questions](https://github.com/T-Pro/android-challenge-elena/tree/master/Code%20Questions) - Folder that contains the answers to all the code questions and also some theoretical points of those inside a README file.
-  - [Broken App](https://github.com/T-Pro/android-challenge-elena/tree/master/Code%20Questions/BrokenApp) - App requested to be fixed on the first question of the third questions level.
-  - [Simple App](https://github.com/T-Pro/android-challenge-elena/tree/master/Code%20Questions/SimpleApp) - App requested to be developed on the second question of the third questions level.
+- [Theoretical Questions](https://github.com/keitheyre/TPro-Interview/tree/master/Theoretical%20Questions) - Folder that contains the answers to all the theoretical-only questions inside a README file.
+- [Code Questions](https://github.com/keitheyre/TPro-Interview/tree/master/Code%20Questions) - Folder that contains the answers to all the code questions and also some theoretical points of those inside a README file.
+  - [Broken App](https://github.com/keitheyre/TPro-Interview/tree/master/Code%20Questions/BrokenApp) - App requested to be fixed on the first question of the third questions level.
+  - [Simple App](https://github.com/keitheyre/TPro-Interview/tree/master/Code%20Questions/SimpleApp) - App requested to be developed on the second question of the third questions level.
 
 ## Tasks
 
